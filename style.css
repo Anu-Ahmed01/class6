@@ -1,0 +1,552 @@
+*{
+    margin: 0px;
+   padding: 0px;
+   outline: 0;
+  
+    
+}
+ul,ol {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    display: inline-block;
+}
+
+
+#fstdiv{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: left;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+   
+}
+
+#menu_img{
+    height: 100px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: left;
+    align-items: center;
+    margin: 10px;
+    margin-left: 15px;
+    
+   
+}
+#menu_img img{
+   
+    margin-left: 50px;
+    
+   
+}
+
+
+#menu{
+    height: 100px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: left;
+    margin: 10px;
+
+    margin-left: 2px;
+    
+    
+    
+}
+
+
+#menu ul li a{
+
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    transition: .4s;  
+    display: inline-block;
+ }
+
+
+ #menu ul li a:hover{
+    background-color: rgb(200, 193, 193);
+    display: inline-block;
+ }
+
+
+#menu  ul li{
+    margin-left:50px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    
+  
+}
+
+#menu  ul li ul{
+    position: absolute;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    text-align: left;
+    right: 0;
+    top: 100; 
+}
+
+
+#menu  ul li:hover ul{
+    display:block;
+
+}
+
+
+#menu  ul li ul li{
+    display: block;
+  
+}
+
+
+#menu  ul li ul li a{
+    display: block;
+}
+#menu  ul li ul button{
+    background-color: rgb(88, 143, 191);
+    height: 30px;
+    width: 100px;
+}
+#menu  ul li ul button a{
+    color: white;
+}
+
+.select{
+    border: none;
+    color: rgb(106, 106, 102);
+}
+
+
+#cat_food{
+    height: 350px;
+    width: 49%;
+    background-color: rgb(237, 155, 47);
+    float: left;
+   
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+
+#cat_food2{
+    height: 350px;
+    width: 46%;
+    background-color: rgb(237, 155, 47);
+    float: left;
+
+    margin-top: 130px;
+}
+
+
+#cat_food2 img{
+    width: 35%;
+    float: right;
+    margin-right: 400px;
+    margin-top: 70px;
+   
+}
+
+#cat_food h1{
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+
+#cat_food p{
+    margin-left: 100px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 16px;
+    
+
+}
+
+#button1{
+    margin-left: 100px;
+    font-size: 12px;
+    margin-top: 40px;
+    color: white;
+
+}
+
+
+
+#button2{
+   
+    font-size: 12px;
+    margin-top: 40px;
+    color: white;
+    margin-left: 10px;
+   
+}
+
+
+#cat_food button{
+   
+    border-radius:18px;
+    height: 35px;
+    width: 70px;
+    border-color: rgb(238, 240, 242);
+    background-color: rgb(246, 196, 126);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+   
+  }
+
+  #cat_food button:hover{
+    background-color: rgb(237, 155, 47);
+    
+        transform: scale(1.1);
+      
+  }
+
+
+  #cat_food button a{
+    color: white;
+  }
+  #text1{
+    height: 50px;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#text1 h2{
+    color: red;
+}
+
+
+  #top_brands{
+    height: 200px;
+    width: 94%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+   
+}
+
+#top_brands1{
+    height: 150px;
+    width: 13%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/purina-pet-food-1.png);
+    margin: 18px;
+     background-size: cover;
+     transition: .6s;
+    
+    
+}
+
+#top_brands1:hover{
+
+   
+    transform: scale(1.1);
+
+}
+
+#top_brands2{
+    height: 150px;
+    width: 13%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/royal-canin.png);
+    margin: 18px;
+    background-size: cover;
+    transition: .6s;
+}
+
+#top_brands2:hover{
+
+   
+    transform: scale(1.1);
+
+}
+
+
+#top_brands3{
+    height: 150px;
+    width: 14%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/Sleeky-1.png);
+    margin: 18px;
+    background-size: cover;
+    transition: .6s;
+}
+
+#top_brands3:hover{
+
+   
+    transform: scale(1.1);
+
+}
+
+#top_brands4{
+    height: 150px;
+    width: 14%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/top-brands7.png);
+    margin: 18px;
+    background-size: cover;
+    transition: .6s;
+}
+
+#top_brands4:hover{
+
+   
+    transform: scale(1.1);
+
+}
+#top_brands5{
+    height: 150px;
+    width: 14%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/whiskas.png);
+    margin: 18px;
+    background-size: cover;
+    transition: .6s;
+}
+
+#top_brands5:hover{
+
+   
+    transform: scale(1.1);
+
+}
+#top_brands6{
+    height: 150px;
+    width: 14%;
+    background-color: rgb(251, 251, 251);
+    float: left;
+    background-image: url(./img/top-brands4.png);
+    background-size: cover;
+    margin: 18px;
+    transition: .6s;
+    
+}
+#top_brands6:hover{
+
+   
+    transform: scale(1.1);
+
+}
+  
+#work{width: 100%;
+    height: 800px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -70px;
+    padding-top: -30px;
+  
+  
+  }
+
+  #text2{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(209, 134, 93);
+    float: left;
+    margin-top: 20px;
+  
+}
+
+
+#text2 h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(125, 45, 2) ;
+   
+}
+#text2 button{
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    border: none;
+    float: right;
+    margin-right: 60px;
+    background-color: rgb(125, 45, 2);
+    transition: .5s;
+   
+}
+#text2 button a{
+    color: aliceblue;
+}
+#text2 button:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+    #work div:nth-child(1){
+      width: 200px;
+      height: 500px;
+      background-color:  white;
+      flex-wrap: wrap;
+      display: flex;
+      float: left;
+      margin: 20px;
+       overflow: hidden;
+    box-shadow: 0px 0px 5px gray;
+    }
+  
+    
+  
+      #work div:nth-child(2){
+      width: 200px;
+      height: 500px;
+      background-color:  white;
+      flex-wrap: wrap;
+      display: flex;
+      float: left;
+      margin: 20px;
+       overflow: hidden;
+       box-shadow: 0px 0px 5px gray;
+    }
+      #work div:nth-child(3){
+      width: 200px;
+      height: 500px;
+      background-color:  white;
+      flex-wrap: wrap;
+      display: flex;
+      float: left;
+      margin: 20px;
+       overflow: hidden;
+       box-shadow: 0px 0px 5px gray;
+    }
+     #work div:nth-child(4){
+      width: 200px;
+      height: 500px;
+      background-color: white;
+      flex-wrap: wrap;
+      display: flex;
+      float: left;
+      margin: 20px;
+      
+       overflow: hidden;
+       box-shadow: 0px 0px 5px gray;
+    }
+    #work img{
+      display: cover;
+     width: 100%;
+      height: auto;
+      transition: 1s;
+  
+    }
+  
+    #work div:nth-child(1):hover img{
+     transform: translatey(-30%);}
+  
+  
+     #work div:nth-child(2):hover img{
+     transform: translatey(-24%);}
+     #work div:nth-child(3):hover img{
+     transform: translatey(-19%);}
+     #work div:nth-child(4):hover img{
+     transform: translatey(-50%);}
+
+     #about_section{
+        width: 100%;
+        height: 390px;
+        background-color: rgb(63, 60, 60);
+        
+     }
+     #logo{
+        width: 30%;
+        height:350px;
+        background-color: rgb(63, 60, 60);
+        float: left;
+        margin-left: 30PX;
+    
+     }
+     #logo img{
+        margin-top: 50px;
+        margin-left: 20px;
+     }
+
+
+     #logo ul {
+        line-height: 30px;
+        margin-left: 30px;
+        color: aliceblue;
+     }
+
+     #about2{
+        width: 20%;
+        height:350px;
+        background-color: rgb(63, 60, 60);
+        float: left;
+
+
+     }
+
+     #about2 ul{
+        margin-top: 60px;
+     }
+     #about2 ul a{
+        color: aliceblue;
+     }
+
+     #about3{
+        width: 20%;
+        height:350px;
+        background-color: rgb(63, 60, 60);
+        float: left;
+
+     }
+
+     #about3 ul{
+        margin-top: 60px;
+     }
+     #about3 ul a{
+        color: aliceblue;
+     }
+
+
+     #about4{
+        width: 20%;
+        height:350px;
+        background-color: rgb(63, 60, 60);
+        float: left;
+
+     }
+
+     #about4 ul{
+        margin-top: 60px;
+     }
+     #about4 ul a{
+        color: aliceblue;
+     }
+
+  
+  
+  
